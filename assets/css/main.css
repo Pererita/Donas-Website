@@ -1,11 +1,5 @@
 @import url(fontawesome-all.min.css);
 
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -115,7 +109,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
+		color: rgba(97, 95, 95, 0.55);
 		font-family: Arial, Helvetica, sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
@@ -175,7 +169,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #525151;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -1835,7 +1829,7 @@ input, select, textarea {
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: #413d3d !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -2295,7 +2289,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #3d3a3a;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
@@ -3236,31 +3230,31 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #953d75;
+			background-color: #ffffff;
 		}
 
 		.wrapper.fullscreen {
@@ -3524,7 +3518,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #f3c6c6;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3737,7 +3731,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgb(61, 54, 54);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3777,11 +3771,11 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgb(255, 255, 255);
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				color: #d41717;
 			}
 
 				#sidebar nav a.active:after {
