@@ -1,86 +1,6 @@
 @import url(fontawesome-all.min.css);
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -1922,11 +1842,20 @@ button,
   -webkit-transition: border-color 0.2s ease;
   -ms-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
-  background-color: transparent;
-  border: solid 1px !important;
-  border-color: rgba(255, 255, 255, 0.15) !important;
+  /* background-color: transparent; */
+  background: #ad5389; 
+  background: -webkit-linear-gradient(
+    to right,
+    #aa387c,
+    #3c1053);
+  background: linear-gradient(
+    to right,
+    #aa387c,
+    #3c1053); 
+  /* border: solid 1px !important;
+  border-color: rgba(255, 255, 255, 0.15) !important; */
   border-radius: 3em;
-  color: #413d3d !important;
+  color: #dbbcbc !important;
   cursor: pointer;
   display: inline-block;
   font-size: 0.6em;
@@ -2037,7 +1966,10 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  border-color: rgba(255, 255, 255, 0.55) !important;
+  /* border-color: rgb(0, 0, 0) !important; */
+  color: #ffffff !important;
+  text-shadow: 0px 0px 2.5px rgb(255, 255, 255);
+  box-shadow: 0px 0px 20px rgba(115, 49, 151, 0.5);
 }
 
 input[type="submit"]:hover:after,
@@ -3302,33 +3234,37 @@ table.alt tfoot {
   }
 }
 
-.wrapper.alt {
-  background-color: #ffffff;
-}
+/* .wrapper.alt {
+  background-color: #feeafa;
+} */
 
 .wrapper.style1 {
   background-color: #ffffff;
+  /* intro y contacto */
 }
 
 .wrapper.style1-alt {
-  background-color: #ffffff;
+  background-color: #feeafa;
+  /* footer */
 }
 
 .wrapper.style2 {
-  background-color: #ffffff;
+  background-color: #feeafa;
+  /* productos */
 }
 
-.wrapper.style2-alt {
+/* .wrapper.style2-alt {
   background-color: #ffffff;
-}
+} */
 
 .wrapper.style3 {
-  background-color: #ffffff;
+  background-color: #feeafa;
+  /* services */
 }
 
-.wrapper.style3-alt {
+/* .wrapper.style3-alt {
   background-color: #ffffff;
-}
+} */
 
 .wrapper.fullscreen {
   display: -moz-flex;
@@ -3961,4 +3897,21 @@ body.is-preload #sidebar nav ul li {
   #intro {
     background-attachment: scroll;
   }
+}
+
+/* intro */
+.introgrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+}
+
+.right__intro{
+  margin: auto;
+}
+
+.button__intro{
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
 }
