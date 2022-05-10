@@ -1843,15 +1843,9 @@ button,
   -ms-transition: border-color 0.2s ease;
   transition: border-color 0.2s ease;
   /* background-color: transparent; */
-  background: #ad5389; 
-  background: -webkit-linear-gradient(
-    to right,
-    #aa387c,
-    #3c1053);
-  background: linear-gradient(
-    to right,
-    #aa387c,
-    #3c1053); 
+  background: #ad5389;
+  background: -webkit-linear-gradient(to right, #aa387c, #3c1053);
+  background: linear-gradient(to right, #aa387c, #3c1053);
   /* border: solid 1px !important;
   border-color: rgba(255, 255, 255, 0.15) !important; */
   border-radius: 3em;
@@ -2003,6 +1997,10 @@ button:hover:active:after,
 /* Features */
 
 .features {
+  /* display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em; */
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -2011,10 +2009,14 @@ button:hover:active:after,
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  border-radius: 0.25em;
+  /* border-radius: 0.25em;
   border: solid 1px rgba(255, 255, 255, 0.15);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.05); */
   margin: 0 0 2em 0;
+  border-radius: 20px;
+  background: #feebfa;
+  box-shadow: 20px 20px 60px rgba(216, 200, 213, 0.5),
+    -20px -20px 60px rgba(216, 200, 213, 0.3);
 }
 
 .features section {
@@ -3258,7 +3260,7 @@ table.alt tfoot {
 } */
 
 .wrapper.style3 {
-  background-color: #feeafa;
+  background-color: #ffffff;
   /* services */
 }
 
@@ -3514,15 +3516,9 @@ body.is-preload .wrapper.fade > .inner {
 #sidebar {
   padding: 2.5em 2.5em 0.5em 2.5em;
   /* background: #fc4b4b; */
-  background: #ad5389; 
-  background: -webkit-linear-gradient(
-    to right,
-    #3c1053,
-    #aa387c);
-  background: linear-gradient(
-    to right,
-    #3c1053,
-    #aa387c); 
+  background: #ad5389;
+  background: -webkit-linear-gradient(to right, #3c1053, #aa387c);
+  background: linear-gradient(to right, #3c1053, #aa387c);
 
   cursor: default;
   height: 100vh;
@@ -3766,10 +3762,18 @@ body.is-ie #sidebar > .inner {
 }
 
 #sidebar nav a:after {
-	background: #ad5389;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #aa387c, #3c1053);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #aa387c, #3c1053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	
+  background: #ad5389; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #aa387c,
+    #3c1053
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #aa387c,
+    #3c1053
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   -moz-transition: max-width 0.2s ease;
   -webkit-transition: max-width 0.2s ease;
   -ms-transition: max-width 0.2s ease;
@@ -3906,11 +3910,11 @@ body.is-preload #sidebar nav ul li {
   gap: 1em;
 }
 
-.right__intro{
+.right__intro {
   margin: auto;
 }
 
-.button__intro{
+.button__intro {
   margin-top: 1em;
   display: flex;
   justify-content: center;
