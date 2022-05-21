@@ -2008,7 +2008,6 @@ button:hover:active:after,
   margin: 0 0 2em 0;
   border-radius: 20px;
   background: #fdd3f4;
-  box-shadow: 0px 0px 60px rgb(219, 188, 188, 1);
 }
 
 .features section {
@@ -3911,3 +3910,9 @@ body.is-preload #sidebar nav ul li {
   display: flex;
   justify-content: center;
 } */
+
+.wrapper__logo {
+  width: 325px;
+  height: 325px;
+  border-radius: 50%;
+}
