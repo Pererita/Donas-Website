@@ -2551,14 +2551,14 @@ input[type="radio"] + label:before {
 .wrapper.style1-alt .icon.major:before {
   color: #493382;
 }
-
+/* 
 .wrapper.style2 .icon.major:before {
   color: #5052b5;
 }
 
 .wrapper.style2-alt .icon.major:before {
   color: #3e4094;
-}
+} */
 
 .wrapper.style3 .icon.major:before {
   color: #b74e91;
@@ -3241,10 +3241,9 @@ table.alt tfoot {
   /* footer */
 }
 
-.wrapper.style2 {
+/* .wrapper.style2 {
   background-color: #fdd3f4;
-  /* productos */
-}
+} */
 
 /* .wrapper.style2-alt {
   background-color: #ffffff;
@@ -3486,16 +3485,16 @@ body.is-preload .wrapper.fade > .inner {
 }
 
 #footer > .inner a {
-  border-bottom-color: rgba(255, 255, 255, 0.15);
+  border-bottom-color: rgba(61, 58, 58);
 }
 
 #footer > .inner a:hover {
-  border-bottom-color: transparent;
+  border-bottom-color: rgb(220, 44, 226);
 }
 
 #footer > .inner .menu {
   font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.15);
+  color: rgba(61, 58, 58);
 }
 
 #header + #wrapper + #footer > .inner {
