@@ -257,6 +257,11 @@ h6 {
   font-size: 0.6em;
 }
 
+.center {
+  text-align: center;
+}
+
+
 @media screen and (max-width: 736px) {
   h1 {
     font-size: 2em;
@@ -3488,10 +3493,10 @@ body.is-preload .wrapper.fade > .inner {
   border-bottom-color: rgba(61, 58, 58);
 }
 
-#footer > .inner a:hover {
+/* #footer > .inner a:hover {
   border-bottom-color: rgb(220, 44, 226);
 }
-
+ */
 #footer > .inner .menu {
   font-size: 0.8em;
   color: rgba(61, 58, 58);
