@@ -3909,6 +3909,10 @@ body.is-preload #sidebar nav ul li {
   margin: auto;
 }
 
+.left__intro {
+  margin: auto;
+}
+
 /* .button__intro {
   margin-top: 1em;
   display: flex;
@@ -3916,8 +3920,8 @@ body.is-preload #sidebar nav ul li {
 } */
 
 .wrapper__logo {
-  width: 325px;
-  height: 325px;
+  width: 425px;
+  height: 425px;
   border-radius: 50%;
 }
 
